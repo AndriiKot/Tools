@@ -1,0 +1,33 @@
+﻿Копирование файлов:
+
+1. copy text.txt demo
+   копирует файл в деректорию 'demo' если папки такой нет то будет сделанна копия файла с именем 'demo'
+
+1.1 copy text.txt demo /y
+
+2. copy text.txt demo\new_text.txt
+   если в данной деректории уже есть такой файл то он будет перезаписан на новое значение.
+
+2.1 copy text.txt demo\program.rb                                                                       
+
+3. copy *.* demo 
+
+4. copy a*.* demo
+
+5. copy i*.txt demo
+   copy i*.t* demo
+
+Копирование файлов и каталогов:
+
+1. xcopy folder1 main
+
+2. xcopy folder1 main /e
+
+3. xcopy folder1 main /e /y
+
+4. xcopy folder main\new_folder\ /e 
+
+5. xcopy folder1
+
+                                        
+    

@@ -1,0 +1,7 @@
+﻿1. tree
+2. tree /f
+3. tree /f /a
+4. tree /f /a | more
+5. Cntr + C
+6. tree /f > tree_1.txt 
+   tree /f /a > tree_2.txt

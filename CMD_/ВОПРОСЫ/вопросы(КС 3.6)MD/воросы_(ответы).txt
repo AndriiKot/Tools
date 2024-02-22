@@ -1,0 +1,14 @@
+﻿1. md Name
+   md "Name Folder"  
+                     если в названии каталога присутствует пробел то всё имя каталого берём в двойные кавычки
+
+2. md name1 name2 name3
+   md "folder 1" "folder 2" "folder 3"
+
+3. md d:\Луна d:\Юпитер "d:\Млечный путь"
+
+4. md    main\folder_1\folder_2\"folder 3"
+   mkdir main\folder_1\folder_2\"folder 3"
+  
+   tree /f
+

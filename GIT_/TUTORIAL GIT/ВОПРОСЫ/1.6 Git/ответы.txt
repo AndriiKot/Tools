@@ -1,0 +1,16 @@
+﻿
+1.
+   git config --list --show-origin
+
+2. git config --global user.name "User Name"
+   git config --global user.email "user email"
+
+   Если указана опции --global, то эти настроййи достаточно сделать один раз, 
+   послокльку в этом случае Git будет использовать эти данные для всегоб, что
+   вы делаете в этой системе.
+   Если дня каких-то отдельных пргектов вы хотите указать другое имя или электронную почтуб можно
+   выпольнить эту же команду без параметра --global в каталоге с нужным проектом.
+
+3. git config --global core.editor code
+   git config --global core.editor emacs
+   git congif --global core.editor vim

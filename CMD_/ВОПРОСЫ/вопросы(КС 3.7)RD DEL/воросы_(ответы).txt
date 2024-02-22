@@ -1,0 +1,72 @@
+﻿Удаления каталогов:
+1. rd    main
+   rmdir main
+
+2. rd    main1 main2
+   rmdir main1 main2
+
+3. rd /s main
+   rd main /s
+   
+   rmdir /s main
+   rmdir main /s
+
+3.1 rd folder1 folder2 /s
+    rmdir folder1 folder2 /s
+    rd /s folder1 folder2
+    rmdir /s folder1 folder2
+
+4. rd /s /q main
+   rd main /s /q
+
+   rmdir /s /q main
+   rmdir main /s /q
+
+4.1 rd folder1 folder2 /s /q
+    rmdir folder1 folder2 /s /q
+
+    rd /s /q folder1 folder2
+    rmdir /s /q folder1 folder2
+
+
+Удаления файлов:
+
+1. erase text1.txt
+   del text1.txt
+
+2. erase folder\text1.txt
+   del text1.txt
+
+3. del text2.txt text3.txt
+   erase text2.txt text3.txt   
+
+4. del folder\text2.txt folder\text3.txt
+   erase folder\text2.txt folder\text3.txt
+
+5. del folder\*.txt
+   erase folder\*.txt
+
+6. del folder\*.*
+   erase folder\*.*
+
+7. del folder\*.* /q
+   del /q folder\*.*
+
+   erase folder\*.* /q
+   erase /q folder\*.* 
+
+8. del main\*.* /s
+   erase main\*.* /s
+   
+9. del main\*.* /s /q
+   erase main\*.* /s /q
+
+10. del main\*.txt /s 
+    erase main\*.txt /s
+
+11. del main\*.txt /s /q
+    erase main\*.txt /s /q
+
+12. del a*.txt
+    erase a*.txt
+
